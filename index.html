@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.png">
+    <title>Spotify-Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="library_icon.png">
+                        <a href="#">Your library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="boxp1">Create your first Playlist</p>
+                        <p class="boxp2">It's easy,we'll help you</p>
+                        <button class="badge">Create Playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="boxp1">Let's find some podcast to follow</p>
+                        <p class="boxp2">We'll keep you updated in new episodes</p>
+                        <button class="badge">Browse podcast</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="nav-icons">
+                    <img src="backward_icon.png">
+                    <img src="forward_icon.png" class="hide">
+                </div>
+                <div class="nav-btn">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down nav-item"
+                            style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+            </div>
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="card1img.jpeg" class="card-img">
+                    <p class="title">Top-50 Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+            </div>
+
+
+            <h2>Trending now near you</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="card2img.jpeg" class="card-img">
+                    <p class="title">Mahiyee Jinna Sohna</p>
+                    <p class="card-info">Most Played song of the year...</p>
+                </div>
+
+                <div class="card">
+                    <img src="card3img.jpeg" class="card-img">
+                    <p class="title">Mere Pass Tum Ho</p>
+                    <p class="card-info">Silent Oceans presents bests...</p>
+                </div>
+
+
+                <div class="card">
+                    <img src="card4img.jpeg" class="card-img">
+                    <p class="title">Souths's Pops</p>
+                    <p class="card-info">Bests of South Indian pops of all time...</p>
+                </div>
+
+                <div class="card">
+                    <img src="rom.webp" class="card-img">
+                    <p class="title">Romantic-Hits</p>
+                    <p class="card-info">Romantic songs with love and care...</p>
+                </div>
+
+                <div class="card">
+                    <img src="hiphop.png" class="card-img">
+                    <p class="title">Hip-Hops</p>
+                    <p class="card-info">Top Hip-Hops of the year...</p>
+                </div>
+
+                <div class="card">
+                    <img src="romatic1.jpg" class="card-img">
+                    <p class="title">Romance</p>
+                    <p class="card-info">Romantic Hits of all time...</p>
+                </div>
+            </div>
+
+
+            <h2>Featured Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="card5img.jpeg" class="card-img">
+                    <p class="title">Top-Songs Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks...</p>
+                </div>
+
+                <div class="card">
+                    <img src="card6img.jpeg" class="card-img">
+                    <p class="title">Top-Songs India</p>
+                    <p class="card-info">Top Songs of India of all times...</p>
+                </div>
+
+                <div class="card">
+                    <img src="topenglish.png" class="card-img">
+                    <p class="title">Top-English</p>
+                    <p class="card-info">Most Played english songs of all time...</p>
+                </div>
+
+                <div class="card">
+                    <img src="tophindi.png" class="card-img">
+                    <p class="title">Top-Hindi</p>
+                    <p class="card-info">Most Played hindi songs of all time...</p>
+                </div>
+
+                <div class="card">
+                    <img src="toppodcasts.png" class="card-img">
+                    <p class="title">Top-Podcasts</p>
+                    <p class="card-info">Most Played pod-casts of all time...</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+
+        <div class="music-player">
+            <div class="album">
+                <div class="song-card">
+                    <img src="album_picture.jpeg" class="album-cover">
+                    <div class="song-info">
+                        <p class="song-title">Daylight</p>
+                        <p class="artist-name">Chris </p>
+                    </div>
+                    <div class="ic">
+                        <img src="album_icon1.png" alt="Heart Icon" class="icon">&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="album_icon2.png" alt="Screen Icon" class="icon">
+                    </div>
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="player_icon1.png" class="player-control-icons">
+                    <img src="player_icon2.png" class="player-control-icons">
+                    <img src="player_icon3.png" class="player-control-icons" style="opacity: 1; height: 2rem;">
+                    <img src="player_icon4.png" class="player-control-icons">
+                    <img src="player_icon5.png" class="player-control-icons">
+                </div>
+                <div class="playback-bar">
+                    <span clas="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="cnt">
+                    <img src="controls_icon1.png " class="allcnt" style="height: 6rem;">
+                    <img src="controld_icon2.png " class="allcnt" style="height: 6rem;">
+                    <img src="controls_icon3.png" class="allcnt" style="height: 5rem;">
+                    <img src="controls_icon4.png" class="allcnt" style="height: 5rem;">
+                    <img src="controls_icon5.png" class="allcnt" style="height: 6rem;">
+
+                    <div class="pgbar">
+                        <span></span>
+                        <input type="range" min="0" max="100">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
